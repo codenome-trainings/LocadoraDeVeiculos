@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.locadoraDeVeiculos.model</OriginalElement>
+  <nodes>
+    <node x="907.9882352941175" y="298.0">br.com.locadoraDeVeiculos.model.TaxaDiaria</node>
+    <node x="191.0" y="674.0">br.com.locadoraDeVeiculos.model.Dinheiro</node>
+    <node x="1994.025" y="298.0">br.com.locadoraDeVeiculos.model.PessoaJuridica</node>
+    <node x="333.0" y="641.0">br.com.locadoraDeVeiculos.model.Cheque</node>
+    <node x="1250.9882352941177" y="243.0">br.com.locadoraDeVeiculos.model.Reserva</node>
+    <node x="0.0" y="652.0">br.com.locadoraDeVeiculos.model.Cartao</node>
+    <node x="1693.9882352941177" y="320.0">br.com.locadoraDeVeiculos.model.Motorista</node>
+    <node x="1365.7044117647058" y="11.0">br.com.locadoraDeVeiculos.model.TipoCoberturaSeguro</node>
+    <node x="1845.61568627451" y="0.0">br.com.locadoraDeVeiculos.model.Cliente</node>
+    <node x="689.1156862745099" y="0.0">br.com.locadoraDeVeiculos.model.Filial</node>
+    <node x="444.79166666666674" y="0.0">br.com.locadoraDeVeiculos.model.Modelo</node>
+    <node x="501.98823529411754" y="166.0">br.com.locadoraDeVeiculos.model.Carro</node>
+    <node x="270.8387254901959" y="320.0">br.com.locadoraDeVeiculos.model.Pagamento</node>
+    <node x="1634.4911764705882" y="11.0">br.com.locadoraDeVeiculos.model.TipoDiaria</node>
+    <node x="944.9544117647058" y="586.0">br.com.locadoraDeVeiculos.model.Locacao</node>
+    <node x="968.1156862745099" y="11.0">br.com.locadoraDeVeiculos.model.Grupo</node>
+    <node x="1828.025" y="298.0">br.com.locadoraDeVeiculos.model.PessoaFisica</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.locadoraDeVeiculos.model.Reserva" target="br.com.locadoraDeVeiculos.model.TipoCoberturaSeguro">
+      <point x="0.0" y="-103.0" />
+      <point x="1462.4882352941177" y="146.0" />
+      <point x="1488.7044117647058" y="146.0" />
+      <point x="41.0" y="37.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.PessoaJuridica" target="br.com.locadoraDeVeiculos.model.Cliente">
+      <point x="0.0" y="-48.0" />
+      <point x="2079.025" y="146.0" />
+      <point x="1993.9490196078432" y="146.0" />
+      <point x="59.33333333333326" y="48.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Cartao" target="br.com.locadoraDeVeiculos.model.Pagamento">
+      <point x="0.0" y="-48.0" />
+      <point x="85.5" y="556.0" />
+      <point x="286.0887254901959" y="556.0" />
+      <point x="-45.75" y="26.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Locacao" target="br.com.locadoraDeVeiculos.model.Reserva">
+      <point x="40.0" y="-114.0" />
+      <point x="1144.9544117647058" y="556.0" />
+      <point x="1462.4882352941177" y="556.0" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Reserva" target="br.com.locadoraDeVeiculos.model.Filial">
+      <point x="-169.20000000000005" y="-103.0" />
+      <point x="1293.2882352941174" y="126.0" />
+      <point x="822.6156862745099" y="126.0" />
+      <point x="44.5" y="48.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.TaxaDiaria" target="br.com.locadoraDeVeiculos.model.TipoCoberturaSeguro">
+      <point x="80.75" y="-48.0" />
+      <point x="1150.2382352941177" y="146.0" />
+      <point x="1406.7044117647058" y="146.0" />
+      <point x="-41.0" y="37.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Carro" target="br.com.locadoraDeVeiculos.model.Filial">
+      <point x="0.0" y="-180.0" />
+      <point x="694.9882352941175" y="146.0" />
+      <point x="733.6156862745099" y="146.0" />
+      <point x="-44.5" y="48.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Reserva" target="br.com.locadoraDeVeiculos.model.Cliente">
+      <point x="169.20000000000005" y="-103.0" />
+      <point x="1631.6882352941175" y="146.0" />
+      <point x="1875.2823529411767" y="146.0" />
+      <point x="-59.33333333333326" y="48.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Locacao" target="br.com.locadoraDeVeiculos.model.Pagamento">
+      <point x="-120.0" y="-114.0" />
+      <point x="984.9544117647058" y="556.0" />
+      <point x="377.5887254901959" y="556.0" />
+      <point x="45.75" y="26.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Dinheiro" target="br.com.locadoraDeVeiculos.model.Pagamento">
+      <point x="0.0" y="-26.0" />
+      <point x="252.0" y="566.0" />
+      <point x="316.5887254901959" y="566.0" />
+      <point x="-15.25" y="26.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.PessoaFisica" target="br.com.locadoraDeVeiculos.model.Cliente">
+      <point x="0.0" y="-48.0" />
+      <point x="1901.025" y="146.0" />
+      <point x="1934.61568627451" y="146.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Locacao" target="br.com.locadoraDeVeiculos.model.Carro">
+      <point x="-40.0" y="-114.0" />
+      <point x="1064.9544117647058" y="546.0" />
+      <point x="694.9882352941175" y="546.0" />
+      <point x="0.0" y="180.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Reserva" target="br.com.locadoraDeVeiculos.model.Grupo">
+      <point x="-84.59999999999991" y="-103.0" />
+      <point x="1377.8882352941177" y="116.0" />
+      <point x="1089.7823529411767" y="116.0" />
+      <point x="48.66666666666674" y="37.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Cheque" target="br.com.locadoraDeVeiculos.model.Pagamento">
+      <point x="0.0" y="-59.0" />
+      <point x="436.5" y="566.0" />
+      <point x="347.0887254901959" y="566.0" />
+      <point x="15.25" y="26.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Carro" target="br.com.locadoraDeVeiculos.model.Grupo">
+      <point x="128.66666666666663" y="-180.0" />
+      <point x="823.6549019607842" y="136.0" />
+      <point x="992.4490196078432" y="136.0" />
+      <point x="-48.66666666666663" y="37.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Carro" target="br.com.locadoraDeVeiculos.model.Modelo">
+      <point x="-128.66666666666663" y="-180.0" />
+      <point x="566.3215686274509" y="146.0" />
+      <point x="542.2916666666667" y="146.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Locacao" target="br.com.locadoraDeVeiculos.model.Motorista">
+      <point x="120.0" y="-114.0" />
+      <point x="1224.9544117647058" y="566.0" />
+      <point x="1748.4882352941177" y="566.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.TaxaDiaria" target="br.com.locadoraDeVeiculos.model.Grupo">
+      <point x="-80.75" y="-48.0" />
+      <point x="988.7382352941175" y="146.0" />
+      <point x="1041.11568627451" y="146.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="br.com.locadoraDeVeiculos.model.Reserva" target="br.com.locadoraDeVeiculos.model.TipoDiaria">
+      <point x="84.59999999999991" y="-103.0" />
+      <point x="1547.0882352941176" y="136.0" />
+      <point x="1686.4911764705882" y="136.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7203661327231121" x="1082.5" y="407.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
