@@ -5,41 +5,32 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Calendar;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Created by thiago on 13/08/2017.
  */
 class CartaoTest {
-    Cartao cartao;
 
+    Cartao cartao;
     @BeforeEach
     void setUp() {
-//        cartao = new Cartao("visa", "1234567812345678", );
+        cartao = new Cartao("visa", "1234567890", Calendar.getInstance());
     }
 
     @Test
     void getOperadora() {
-    }
-
-    @Test
-    void setOperadora() {
+        assertEquals("visa", cartao.getOperadora());
     }
 
     @Test
     void getNumero() {
-    }
-
-    @Test
-    void setNumero() {
+        assertEquals("1234567890", cartao.getNumero());
     }
 
     @Test
     void getDataAutorizacao() {
-    }
-
-    @Test
-    void setDataAutorizacao() {
+        assertEquals(Calendar.getInstance(), cartao.getDataAutorizacao());
     }
 
 }

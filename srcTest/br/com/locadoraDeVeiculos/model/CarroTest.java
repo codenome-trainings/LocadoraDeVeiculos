@@ -3,7 +3,7 @@ package br.com.locadoraDeVeiculos.model;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Created by thiago on 13/08/2017.
@@ -11,9 +11,10 @@ import static org.junit.jupiter.api.Assertions.*;
 class CarroTest {
 
     Carro carro;
+
     @BeforeEach
     void setUp() {
-        Modelo modelo = new Modelo("Uno", "Fiat", 4);
+        Modelo modelo = new Modelo("Uno", "Fiat", new Integer(4));
         Grupo grupo = new Grupo(new Double(300), "Grupo");
         Filial filial = new Filial("Filial", "Rua das Pacas", "997891865");
         carro = new Carro(
@@ -32,7 +33,7 @@ class CarroTest {
                 modelo,
                 grupo,
                 filial
-                );
+        );
     }
 
     @Test
@@ -97,15 +98,22 @@ class CarroTest {
 
     @Test
     void getModelo() {
-
+        assertEquals("Uno", carro.getModelo().getNome());
+        assertEquals("Fiat", carro.getModelo().getMarca());
+        assertEquals(new Integer(4), carro.getModelo().getCapacidade());
     }
 
     @Test
     void getGrupo() {
+        assertEquals(new Double(300), carro.getGrupo().getPreco());
+        assertEquals("Grupo", carro.getGrupo().getNome());
     }
 
     @Test
     void getFilial() {
+        assertEquals("Filial", carro.getFilial().getNome());
+        assertEquals("Rua das Pacas", carro.getFilial().getEndereco());
+        assertEquals("997891865", carro.getFilial().getTelefone());
     }
 
 
