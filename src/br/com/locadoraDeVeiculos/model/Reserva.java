@@ -32,64 +32,31 @@ public class Reserva {
         return dataHoraRetirada;
     }
 
-    public void setDataHoraRetirada(Calendar dataHoraRetirada) {
-        this.dataHoraRetirada = dataHoraRetirada;
-    }
-
     public Calendar getDataHoraDevolucao() {
         return dataHoraDevolucao;
-    }
-
-    public void setDataHoraDevolucao(Calendar dataHoraDevolucao) {
-        this.dataHoraDevolucao = dataHoraDevolucao;
     }
 
     public Filial getDevolucao() {
         return devolucao;
     }
 
-    public void setDevolucao(Filial devolucao) {
-        this.devolucao = devolucao;
-    }
-
     public Filial getRetirada() {
         return retirada;
-    }
-
-    public void setRetirada(Filial retirada) {
-        this.retirada = retirada;
     }
 
     public TipoCoberturaSeguro getTipoCoberturaSeguro() {
         return tipoCoberturaSeguro;
     }
 
-    public void setTipoCoberturaSeguro(TipoCoberturaSeguro tipoCoberturaSeguro) {
-        this.tipoCoberturaSeguro = tipoCoberturaSeguro;
-    }
-
     public TipoDiaria getTipoDiaria() {
         return tipoDiaria;
-    }
-
-    public void setTipoDiaria(TipoDiaria tipoDiaria) {
-        this.tipoDiaria = tipoDiaria;
     }
 
     public Grupo getGrupo() {
         return grupo;
     }
 
-    public void setGrupo(Grupo grupo) {
-        this.grupo = grupo;
-    }
-
     public Cliente getCliente() {
         return cliente;
     }
-
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
-
 }

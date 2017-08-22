@@ -21,32 +21,17 @@ public class Cheque extends Pagamento {
         return banco;
     }
 
-    public void setBanco(String banco) {
-        this.banco = banco;
-    }
-
     public String getAgencia() {
         return agencia;
-    }
-
-    public void setAgencia(String agencia) {
-        this.agencia = agencia;
     }
 
     public String getConta() {
         return conta;
     }
 
-    public void setConta(String conta) {
-        this.conta = conta;
-    }
-
     public Integer getNrCheque() {
         return nrCheque;
     }
 
-    public void setNrCheque(Integer nrCheque) {
-        this.nrCheque = nrCheque;
-    }
 
 }

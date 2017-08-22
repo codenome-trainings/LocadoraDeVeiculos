@@ -9,15 +9,11 @@ public class Motorista {
     }
 
     public Motorista() {
-
     }
 
     public String getCnh() {
         return cnh;
     }
 
-    public void setCnh(String cnh) {
-        this.cnh = cnh;
-    }
 
 }

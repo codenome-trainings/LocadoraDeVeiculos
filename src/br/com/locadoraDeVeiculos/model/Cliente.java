@@ -20,25 +20,12 @@ public class Cliente {
         return endereco;
     }
 
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
-    }
-
     public String getEmail() {
         return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public List<String> getTelefones() {
         return telefones;
     }
-
-    public void setTelefones(List<String> telefones) {
-        this.telefones = telefones;
-    }
-
 
 }

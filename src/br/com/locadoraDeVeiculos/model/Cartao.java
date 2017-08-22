@@ -21,24 +21,12 @@ public class Cartao extends Pagamento {
         return operadora;
     }
 
-    public void setOperadora(String operadora) {
-        this.operadora = operadora;
-    }
-
     public String getNumero() {
         return numero;
     }
 
-    public void setNumero(String numero) {
-        this.numero = numero;
-    }
-
     public Calendar getDataAutorizacao() {
         return dataAutorizacao;
-    }
-
-    public void setDataAutorizacao(Calendar dataAutorizacao) {
-        this.dataAutorizacao = dataAutorizacao;
     }
 
 }

@@ -19,24 +19,12 @@ public class PessoaFisica extends Cliente {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
     public String getIndentidade() {
         return indentidade;
-    }
-
-    public void setIndentidade(String indentidade) {
-        this.indentidade = indentidade;
     }
 
 }

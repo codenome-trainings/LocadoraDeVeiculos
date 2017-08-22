@@ -19,24 +19,11 @@ public class TaxaDiaria {
         return tipoCoberturaSeguro;
     }
 
-    public void setTipoCoberturaSeguro(TipoCoberturaSeguro tipoCoberturaSeguro) {
-        this.tipoCoberturaSeguro = tipoCoberturaSeguro;
-    }
-
     public Double getValor() {
         return valor;
-    }
-
-    public void setValor(Double valor) {
-        this.valor = valor;
     }
 
     public Grupo getGrupo() {
         return grupo;
     }
-
-    public void setGrupo(Grupo grupo) {
-        this.grupo = grupo;
-    }
-
 }

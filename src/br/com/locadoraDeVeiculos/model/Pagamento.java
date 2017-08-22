@@ -15,9 +15,5 @@ public class Pagamento {
         return valor;
     }
 
-    public void setValor(Double valor) {
-        this.valor = valor;
-    }
-
 
 }

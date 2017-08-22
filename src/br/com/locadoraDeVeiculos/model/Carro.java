@@ -46,120 +46,59 @@ public class Carro {
         return placa;
     }
 
-    public void setPlaca(String placa) {
-        this.placa = placa;
-    }
-
     public String getChassi() {
         return chassi;
-    }
-
-    public void setChassi(String chassi) {
-        this.chassi = chassi;
     }
 
     public String getRenavam() {
         return Renavam;
     }
 
-    public void setRenavam(String renavam) {
-        Renavam = renavam;
-    }
-
     public Integer getAnoDeFabricacao() {
         return anoDeFabricacao;
-    }
-
-    public void setAnoDeFabricacao(Integer anoDeFabricacao) {
-        this.anoDeFabricacao = anoDeFabricacao;
     }
 
     public Double getPotencialMotor() {
         return potencialMotor;
     }
 
-    public void setPotencialMotor(Double potencialMotor) {
-        this.potencialMotor = potencialMotor;
-    }
-
     public String getCor() {
         return cor;
-    }
-
-    public void setCor(String cor) {
-        this.cor = cor;
     }
 
     public Integer getNumeroDePortas() {
         return numeroDePortas;
     }
 
-    public void setNumeroDePortas(Integer numeroDePortas) {
-        this.numeroDePortas = numeroDePortas;
-    }
-
     public Boolean getArCondicionado() {
         return arCondicionado;
-    }
-
-    public void setArCondicionado(Boolean arCondicionado) {
-        this.arCondicionado = arCondicionado;
     }
 
     public Boolean getDirecaoHidraulica() {
         return direcaoHidraulica;
     }
 
-    public void setDirecaoHidraulica(Boolean direcaoHidraulica) {
-        this.direcaoHidraulica = direcaoHidraulica;
-    }
-
     public Boolean getFreioAbs() {
         return freioAbs;
-    }
-
-    public void setFreioAbs(Boolean freioAbs) {
-        this.freioAbs = freioAbs;
     }
 
     public Boolean getAirBag() {
         return airBag;
     }
 
-    public void setAirBag(Boolean airBag) {
-        this.airBag = airBag;
-    }
-
     public Boolean getRadio() {
         return radio;
-    }
-
-    public void setRadio(Boolean radio) {
-        this.radio = radio;
     }
 
     public Modelo getModelo() {
         return modelo;
     }
 
-    public void setModelo(Modelo modelo) {
-        this.modelo = modelo;
-    }
-
     public Grupo getGrupo() {
         return grupo;
-    }
-
-    public void setGrupo(Grupo grupo) {
-        this.grupo = grupo;
     }
 
     public Filial getFilial() {
         return filial;
     }
-
-    public void setFilial(Filial filial) {
-        this.filial = filial;
-    }
-
 }

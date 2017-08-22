@@ -14,8 +14,4 @@ public class Dinheiro extends Pagamento {
         return super.getValor();
     }
 
-    @Override
-    public void setValor(Double valor) {
-        super.setValor(valor);
-    }
 }

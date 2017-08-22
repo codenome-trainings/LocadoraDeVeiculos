@@ -18,16 +18,8 @@ public class TipoCoberturaSeguro {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public Boolean getParticipacaoObrigatoria() {
         return participacaoObrigatoria;
-    }
-
-    public void setParticipacaoObrigatoria(Boolean participacaoObrigatoria) {
-        this.participacaoObrigatoria = participacaoObrigatoria;
     }
 
 }
