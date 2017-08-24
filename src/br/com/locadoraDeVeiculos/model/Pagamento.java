@@ -4,16 +4,4 @@ public class Pagamento {
 
     private Double valor;
 
-    public Pagamento() {
-    }
-
-    public Pagamento(Double valor) {
-        this.valor = valor;
-    }
-
-    public Double getValor() {
-        return valor;
-    }
-
-
 }

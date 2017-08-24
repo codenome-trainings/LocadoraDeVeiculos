@@ -7,31 +7,7 @@ public class Cheque extends Pagamento {
     private String conta;
     private Integer nrCheque;
 
-    public Cheque() {
-    }
 
-    public Cheque(String banco, String agencia, String conta, Integer nrCheque) {
-        this.banco = banco;
-        this.agencia = agencia;
-        this.conta = conta;
-        this.nrCheque = nrCheque;
-    }
-
-    public String getBanco() {
-        return banco;
-    }
-
-    public String getAgencia() {
-        return agencia;
-    }
-
-    public String getConta() {
-        return conta;
-    }
-
-    public Integer getNrCheque() {
-        return nrCheque;
-    }
 
 
 }

@@ -7,25 +7,6 @@ public class Cliente {
     private String email;
     private List<String> telefones;
 
-    public Cliente() {
-    }
 
-    public Cliente(String endereco, String email, List<String> telefones) {
-        this.endereco = endereco;
-        this.email = email;
-        this.telefones = telefones;
-    }
-
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public List<String> getTelefones() {
-        return telefones;
-    }
 
 }
